@@ -7,8 +7,8 @@ CREATE TABLE IF NOT EXISTS `persoana` (
     `porecla` varchar(50),
     `domiciliu` varchar(150),
     `data_de_nastere` date,
-    PRIMARY KEY (`persoanaId`),
-    KEY `id` (`id`)
+    PRIMARY KEY (`persoanaId`)
+   
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 CREATE TABLE IF NOT EXISTS `contact` (
@@ -17,6 +17,6 @@ CREATE TABLE IF NOT EXISTS `contact` (
      `telefon` varchar(50),
      `telefon_secundar` varchar(50),
      `e_mail` varchar(50),
-    PRIMARY KEY (`contactId`),
-     KEY `id_contacte` (`id`)
+    PRIMARY KEY (`contactId`)
+    
 ) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
